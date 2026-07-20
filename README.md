@@ -1,6 +1,12 @@
-Gateway received the request.
-Gateway matched /api/auth/**.
-Gateway forwarded the request to the Authentication Service.
-Authentication Service processed the request.
-The response came back through the Gateway.
-Same goes with the vulnerability service as well.
+## Configuration
+
+The API Gateway uses the centralized Config Server.
+
+The configuration contains:
+
+- Gateway Routes
+- Eureka Configuration
+- Discovery Locator
+- Server Port
+
+No sensitive information is stored locally.
